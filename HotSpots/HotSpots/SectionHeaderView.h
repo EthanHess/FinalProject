@@ -12,4 +12,6 @@
 
 + (CGFloat)headerHeight;
 
+- (void)updateWithTitle:(NSString *)ContinentTitle;
+
 @end
