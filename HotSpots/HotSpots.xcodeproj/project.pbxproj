@@ -19,6 +19,7 @@
 		279457AA1AC0B14D003FC32B /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457A91AC0B14D003FC32B /* SectionHeaderView.m */; };
 		279457AD1AC0B406003FC32B /* ContintentPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457AC1AC0B406003FC32B /* ContintentPicture.m */; };
 		279457B01AC0B430003FC32B /* ContinentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457AF1AC0B430003FC32B /* ContinentData.m */; };
+		279457BB1AC0C5FB003FC32B /* UIColor+ColorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457BA1AC0C5FB003FC32B /* UIColor+ColorCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		279457AC1AC0B406003FC32B /* ContintentPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContintentPicture.m; sourceTree = "<group>"; };
 		279457AE1AC0B430003FC32B /* ContinentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinentData.h; sourceTree = "<group>"; };
 		279457AF1AC0B430003FC32B /* ContinentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinentData.m; sourceTree = "<group>"; };
+		279457B91AC0C5FB003FC32B /* UIColor+ColorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorCategory.h"; sourceTree = "<group>"; };
+		279457BA1AC0C5FB003FC32B /* UIColor+ColorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		2794577C1AC0A892003FC32B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				279457B91AC0C5FB003FC32B /* UIColor+ColorCategory.h */,
+				279457BA1AC0C5FB003FC32B /* UIColor+ColorCategory.m */,
 				2794577D1AC0A892003FC32B /* Info.plist */,
 				2794577E1AC0A892003FC32B /* main.m */,
 			);
@@ -312,6 +317,7 @@
 				279457AA1AC0B14D003FC32B /* SectionHeaderView.m in Sources */,
 				279457851AC0A892003FC32B /* MainTableViewController.m in Sources */,
 				279457821AC0A892003FC32B /* AppDelegate.m in Sources */,
+				279457BB1AC0C5FB003FC32B /* UIColor+ColorCategory.m in Sources */,
 				2794577F1AC0A892003FC32B /* main.m in Sources */,
 				279457AD1AC0B406003FC32B /* ContintentPicture.m in Sources */,
 				279457B01AC0B430003FC32B /* ContinentData.m in Sources */,
