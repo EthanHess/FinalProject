@@ -8,6 +8,7 @@
 
 #import "MainTableViewController.h"
 #import "MainTableDataSource.h"
+#import "SectionHeaderView.h"
 
 @interface MainTableViewController ()
 
@@ -34,6 +35,56 @@
     
     
 }
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    
+    return [SectionHeaderView headerHeight];
+    
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    
+    
+    
+}
+
+-(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    switch (indexPath.row) {
+        case 0: {
+            
+            
+            break; }
+        case 1: {
+           
+            
+            break; }
+        case 2: {
+            
+            
+            break; }
+        case 3: {
+            
+            
+            break; }
+        case 4: {
+            
+            
+            break; }
+        case 5: {
+            
+            
+            break; }
+        case 6: {
+        
+            break; }
+            
+        default:
+            break;
+    }
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

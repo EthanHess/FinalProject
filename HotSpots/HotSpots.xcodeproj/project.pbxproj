@@ -16,6 +16,9 @@
 		279457991AC0A892003FC32B /* HotSpotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457981AC0A892003FC32B /* HotSpotsTests.m */; };
 		279457A41AC0ACD7003FC32B /* MainTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457A31AC0ACD7003FC32B /* MainTableDataSource.m */; };
 		279457A71AC0B089003FC32B /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457A61AC0B089003FC32B /* MainTableViewCell.m */; };
+		279457AA1AC0B14D003FC32B /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457A91AC0B14D003FC32B /* SectionHeaderView.m */; };
+		279457AD1AC0B406003FC32B /* ContintentPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457AC1AC0B406003FC32B /* ContintentPicture.m */; };
+		279457B01AC0B430003FC32B /* ContinentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457AF1AC0B430003FC32B /* ContinentData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,12 @@
 		279457A31AC0ACD7003FC32B /* MainTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableDataSource.m; sourceTree = "<group>"; };
 		279457A51AC0B089003FC32B /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
 		279457A61AC0B089003FC32B /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		279457A81AC0B14D003FC32B /* SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderView.h; sourceTree = "<group>"; };
+		279457A91AC0B14D003FC32B /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
+		279457AB1AC0B406003FC32B /* ContintentPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContintentPicture.h; sourceTree = "<group>"; };
+		279457AC1AC0B406003FC32B /* ContintentPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContintentPicture.m; sourceTree = "<group>"; };
+		279457AE1AC0B430003FC32B /* ContinentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinentData.h; sourceTree = "<group>"; };
+		279457AF1AC0B430003FC32B /* ContinentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinentData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,14 +96,14 @@
 		2794577B1AC0A892003FC32B /* HotSpots */ = {
 			isa = PBXGroup;
 			children = (
-				279457801AC0A892003FC32B /* AppDelegate.h */,
-				279457811AC0A892003FC32B /* AppDelegate.m */,
-				279457831AC0A892003FC32B /* MainTableViewController.h */,
-				279457841AC0A892003FC32B /* MainTableViewController.m */,
-				279457A51AC0B089003FC32B /* MainTableViewCell.h */,
-				279457A61AC0B089003FC32B /* MainTableViewCell.m */,
-				279457A21AC0ACD7003FC32B /* MainTableDataSource.h */,
-				279457A31AC0ACD7003FC32B /* MainTableDataSource.m */,
+				279457B11AC0B444003FC32B /* MainView */,
+				279457B61AC0B5EA003FC32B /* Africa */,
+				279457B41AC0B592003FC32B /* Antarctica */,
+				279457B21AC0B550003FC32B /* Asia */,
+				279457B31AC0B572003FC32B /* Europe */,
+				279457B51AC0B5C0003FC32B /* Oceania */,
+				279457B71AC0B600003FC32B /* NorthAmerica */,
+				279457B81AC0B60F003FC32B /* SouthAmerica */,
 				279457861AC0A892003FC32B /* Main.storyboard */,
 				279457891AC0A892003FC32B /* Images.xcassets */,
 				2794578B1AC0A892003FC32B /* LaunchScreen.xib */,
@@ -127,6 +136,76 @@
 				279457971AC0A892003FC32B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279457B11AC0B444003FC32B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				279457801AC0A892003FC32B /* AppDelegate.h */,
+				279457811AC0A892003FC32B /* AppDelegate.m */,
+				279457831AC0A892003FC32B /* MainTableViewController.h */,
+				279457841AC0A892003FC32B /* MainTableViewController.m */,
+				279457A21AC0ACD7003FC32B /* MainTableDataSource.h */,
+				279457A31AC0ACD7003FC32B /* MainTableDataSource.m */,
+				279457A51AC0B089003FC32B /* MainTableViewCell.h */,
+				279457A61AC0B089003FC32B /* MainTableViewCell.m */,
+				279457A81AC0B14D003FC32B /* SectionHeaderView.h */,
+				279457A91AC0B14D003FC32B /* SectionHeaderView.m */,
+				279457AB1AC0B406003FC32B /* ContintentPicture.h */,
+				279457AC1AC0B406003FC32B /* ContintentPicture.m */,
+				279457AE1AC0B430003FC32B /* ContinentData.h */,
+				279457AF1AC0B430003FC32B /* ContinentData.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		279457B21AC0B550003FC32B /* Asia */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Asia;
+			sourceTree = "<group>";
+		};
+		279457B31AC0B572003FC32B /* Europe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Europe;
+			sourceTree = "<group>";
+		};
+		279457B41AC0B592003FC32B /* Antarctica */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Antarctica;
+			sourceTree = "<group>";
+		};
+		279457B51AC0B5C0003FC32B /* Oceania */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Oceania;
+			sourceTree = "<group>";
+		};
+		279457B61AC0B5EA003FC32B /* Africa */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Africa;
+			sourceTree = "<group>";
+		};
+		279457B71AC0B600003FC32B /* NorthAmerica */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NorthAmerica;
+			sourceTree = "<group>";
+		};
+		279457B81AC0B60F003FC32B /* SouthAmerica */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SouthAmerica;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				279457A41AC0ACD7003FC32B /* MainTableDataSource.m in Sources */,
+				279457AA1AC0B14D003FC32B /* SectionHeaderView.m in Sources */,
 				279457851AC0A892003FC32B /* MainTableViewController.m in Sources */,
 				279457821AC0A892003FC32B /* AppDelegate.m in Sources */,
 				2794577F1AC0A892003FC32B /* main.m in Sources */,
+				279457AD1AC0B406003FC32B /* ContintentPicture.m in Sources */,
+				279457B01AC0B430003FC32B /* ContinentData.m in Sources */,
 				279457A71AC0B089003FC32B /* MainTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
