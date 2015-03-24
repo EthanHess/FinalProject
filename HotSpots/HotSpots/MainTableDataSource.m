@@ -43,19 +43,6 @@
     
     MainTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([MainTableViewCell class])];
     
-//    switch (indexPath.section) {
-//        case 0:
-//                [cell updateWithDescription:[NSString stringWithFormat:@"%@",[ContinentData descriptionAtIndex:indexPath.section]] picture:[UIImage imageNamed:[ContinentData imageAtIndex:indexPath.section]]];
-//            break;
-//        case 1:
-//                [cell updateWithDescription:[NSString stringWithFormat:@"%@",[ContinentData descriptionAtIndex:indexPath.section]] picture:[UIImage imageNamed:[ContinentData imageAtIndex:indexPath.section]]];
-//            break;
-//        case 2:
-//                [cell updateWithDescription:[NSString stringWithFormat:@"%@",[ContinentData descriptionAtIndex:indexPath.section]] picture:[UIImage imageNamed:[ContinentData imageAtIndex:indexPath.section]]];
-//            break;
-//        default:
-//            break;
-//    }
     
     [cell updateWithDescription:[NSString stringWithFormat:@"%@",[ContinentData descriptionAtIndex:indexPath.section]] picture:[UIImage imageNamed:[ContinentData imageAtIndex:indexPath.section]]];
     

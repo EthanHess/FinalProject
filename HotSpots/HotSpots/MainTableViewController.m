@@ -15,7 +15,6 @@
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) MainTableDataSource *dataSource;
-@property (nonatomic, assign) NSInteger index;
 
 @end
 

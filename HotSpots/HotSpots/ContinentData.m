@@ -42,39 +42,39 @@
     
     return @[
              @{
-               headerKey: @"Test 1",
-               imageKey: @"Homer.png",
-               descriptionKey: @"Test desc. 1",
+               headerKey: @"Africa",
+               imageKey: @"Africa",
+               descriptionKey: @"Africa",
                },
              @{
-               headerKey: @"Test 2",
-               imageKey: @"Homer.png",
-               descriptionKey: @"Test desc. 2",
+               headerKey: @"Antarctica",
+               imageKey: @"Antarctica",
+               descriptionKey: @"Antarctica",
                },
              @{
-               headerKey: @"Test 3",
-               imageKey: @"Homer.png",
-               descriptionKey: @"Test desc. 3",
+               headerKey: @"Asia",
+               imageKey: @"Asia",
+               descriptionKey: @"Asia",
                },
              @{
-               headerKey: @"Test 4",
-               imageKey: @"Homer.png",
-               descriptionKey: @"Test desc. 4",
+               headerKey: @"Europe",
+               imageKey: @"Europe",
+               descriptionKey: @"Europe",
                },
              @{
-               headerKey: @"Test 5",
-               imageKey: @"Homer.png",
-               descriptionKey: @"Test desc. 5",
+               headerKey: @"Oceania",
+               imageKey: @"Oceania",
+               descriptionKey: @"Oceania",
                },
              @{
-               headerKey: @"Test 6",
-               imageKey: @"Homer.png",
-               descriptionKey: @"Test desc. 6",
+               headerKey: @"North America",
+               imageKey: @"NorthAmerica",
+               descriptionKey: @"North America",
                },
              @{
-               headerKey: @"Test 7",
-               imageKey: @"Homer.png",
-               descriptionKey: @"Test desc. 7",
+               headerKey: @"South America",
+               imageKey: @"SouthAmerica",
+               descriptionKey: @"South America",
                
                  }];
                 
