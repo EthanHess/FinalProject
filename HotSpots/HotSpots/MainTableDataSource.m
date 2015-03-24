@@ -11,6 +11,11 @@
 #import "ContintentPicture.h"
 #import "ContinentData.h" 
 
+@interface MainTableDataSource ()
+
+@property (nonatomic, assign) NSInteger index;
+
+@end
 
 @implementation MainTableDataSource
 
@@ -27,8 +32,9 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
-    return [ContinentData count];
+//    SectionHeaderView *header = [[SectionHeaderView alloc]initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 50)];
+//    [header updateWithTitle:section];
+    return 1;
     
 }
 
@@ -37,6 +43,21 @@
     
     MainTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([MainTableViewCell class])];
     
+//    switch (indexPath.section) {
+//        case 0:
+//                [cell updateWithDescription:[NSString stringWithFormat:@"%@",[ContinentData descriptionAtIndex:indexPath.section]] picture:[UIImage imageNamed:[ContinentData imageAtIndex:indexPath.section]]];
+//            break;
+//        case 1:
+//                [cell updateWithDescription:[NSString stringWithFormat:@"%@",[ContinentData descriptionAtIndex:indexPath.section]] picture:[UIImage imageNamed:[ContinentData imageAtIndex:indexPath.section]]];
+//            break;
+//        case 2:
+//                [cell updateWithDescription:[NSString stringWithFormat:@"%@",[ContinentData descriptionAtIndex:indexPath.section]] picture:[UIImage imageNamed:[ContinentData imageAtIndex:indexPath.section]]];
+//            break;
+//        default:
+//            break;
+//    }
+    
+    [cell updateWithDescription:[NSString stringWithFormat:@"%@",[ContinentData descriptionAtIndex:indexPath.section]] picture:[UIImage imageNamed:[ContinentData imageAtIndex:indexPath.section]]];
     
     return cell;
 }

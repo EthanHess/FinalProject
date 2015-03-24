@@ -42,9 +42,9 @@
         
         NSDictionary *viewsDictionary = NSDictionaryOfVariableBindings(_picture, _descriptionLabel);
         
-        NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:| -25- [_descriptionLabel] - [_picture(==100)] -25- |" options:NSLayoutFormatAlignAllLeft metrics:nil views:viewsDictionary];
+        NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-25-[_descriptionLabel]-[_picture(==100)]-25-|" options:NSLayoutFormatAlignAllLeft metrics:nil views:viewsDictionary];
         
-        NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:| -50- [_picture (==100)]" options:0 metrics:nil views:viewsDictionary];
+        NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-50-[_picture(==100)]-|" options:0 metrics:nil views:viewsDictionary];
         
         [self.contentView addConstraints:constraints];
         [self.contentView addConstraints:horizontalConstraints];
@@ -54,7 +54,7 @@
     return self;
 }
 
-- (void)updateWithDescription:(NSString *)description avatar:(UIImage *)picture {
+- (void)updateWithDescription:(NSString *)description picture:(UIImage *)picture {
     
     self.descriptionLabel.text = description;
     [self.picture setImage:picture];

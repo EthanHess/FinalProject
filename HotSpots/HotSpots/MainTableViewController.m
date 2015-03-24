@@ -9,11 +9,13 @@
 #import "MainTableViewController.h"
 #import "MainTableDataSource.h"
 #import "SectionHeaderView.h"
+#import "ContinentData.h"
 
 @interface MainTableViewController ()
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) MainTableDataSource *dataSource;
+@property (nonatomic, assign) NSInteger index;
 
 @end
 
@@ -44,13 +46,18 @@
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     
-    return nil;
+    CGRect frame = CGRectMake(0, 0, tableView.frame.size.width, [SectionHeaderView headerHeight]);
+    
+    SectionHeaderView *sectionHeaderView = [[SectionHeaderView alloc]initWithFrame:frame];
+    [sectionHeaderView updateWithTitle:section];
+    
+    return sectionHeaderView;
     
 }
 
--(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    switch (indexPath.row) {
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+   
+    switch (indexPath.section) {
         case 0: {
             
             AfricaViewController *africaViewController = [AfricaViewController new];

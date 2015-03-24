@@ -10,6 +10,6 @@
 
 @interface MainTableViewCell : UITableViewCell
 
-- (void)updateWithDescription:(NSString *)description avatar:(UIImage *)picture;
+- (void)updateWithDescription:(NSString *)description picture:(UIImage *)picture;
 
 @end

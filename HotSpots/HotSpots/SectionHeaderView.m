@@ -8,6 +8,7 @@
 
 #import "SectionHeaderView.h"
 #import "UIColor+ColorCategory.h"
+#import "ContinentData.h"
 
 @interface SectionHeaderView ()
 
@@ -26,14 +27,16 @@
         
         
         self.titleLabel = [UILabel new];
+        [self.titleLabel setFrame:frame];
         self.titleLabel.translatesAutoresizingMaskIntoConstraints = NO;
         self.titleLabel.font = [UIFont systemFontOfSize:16];
         self.titleLabel.textColor = [UIColor slateColor];
+        [self.titleLabel setBackgroundColor:[UIColor redColor]];
         [self addSubview:self.titleLabel];
         
         NSDictionary *viewsDictionary = NSDictionaryOfVariableBindings(_titleLabel);
         
-        NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-50- [_titleLabel]|" options:0 metrics:nil views:viewsDictionary];
+        NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-50-[_titleLabel]-|" options:0 metrics:nil views:viewsDictionary];
         
         NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[_titleLabel]-|" options:0 metrics:nil views:viewsDictionary];
         
@@ -47,6 +50,34 @@
     
 }
 
+//-(instancetype)init
+//{
+//    self=[super init];
+//    if (self) {
+//        self.backgroundColor = [UIColor colorWithRed:139.0/255.0 green:209.0/255.0 blue:223.0/255.0 alpha:1.0];
+//        
+//        
+//        self.titleLabel = [UILabel new];
+//        [self.titleLabel setFrame:frame];
+//        self.titleLabel.translatesAutoresizingMaskIntoConstraints = NO;
+//        self.titleLabel.font = [UIFont systemFontOfSize:16];
+//        self.titleLabel.textColor = [UIColor slateColor];
+//        [self.titleLabel setBackgroundColor:[UIColor redColor]];
+//        [self addSubview:self.titleLabel];
+//        
+//        NSDictionary *viewsDictionary = NSDictionaryOfVariableBindings(_titleLabel);
+//        
+//        NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-50-[_titleLabel]-|" options:0 metrics:nil views:viewsDictionary];
+//        
+//        NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[_titleLabel]-|" options:0 metrics:nil views:viewsDictionary];
+//        
+//        [self addConstraints:constraints];
+//        [self addConstraints:horizontalConstraints];
+//    }
+//    
+//    return self;
+//}
+//
 
 + (CGFloat)headerHeight {
     
@@ -54,9 +85,8 @@
     
 }
 
-- (void)updateWithTitle:(NSString *)ContinentTitle {
-    
-    self.titleLabel.text = ContinentTitle;
+- (void)updateWithTitle: (NSInteger)index {
+    self.titleLabel.text = [ContinentData headerAtIndex:index];
 }
 
 
