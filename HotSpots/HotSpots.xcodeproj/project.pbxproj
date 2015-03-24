@@ -27,6 +27,7 @@
 		279457CA1AC1CEF1003FC32B /* OceaniaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457C91AC1CEF1003FC32B /* OceaniaViewController.m */; };
 		279457CD1AC1CF01003FC32B /* NorthAmericaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457CC1AC1CF01003FC32B /* NorthAmericaViewController.m */; };
 		279457D01AC1CF15003FC32B /* SouthAmericaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457CF1AC1CF15003FC32B /* SouthAmericaViewController.m */; };
+		279457D21AC1F594003FC32B /* Homer.png in Resources */ = {isa = PBXBuildFile; fileRef = 279457D11AC1F594003FC32B /* Homer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		279457CC1AC1CF01003FC32B /* NorthAmericaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NorthAmericaViewController.m; sourceTree = "<group>"; };
 		279457CE1AC1CF15003FC32B /* SouthAmericaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SouthAmericaViewController.h; sourceTree = "<group>"; };
 		279457CF1AC1CF15003FC32B /* SouthAmericaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SouthAmericaViewController.m; sourceTree = "<group>"; };
+		279457D11AC1F594003FC32B /* Homer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Homer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		2794577C1AC0A892003FC32B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				279457D11AC1F594003FC32B /* Homer.png */,
 				279457B91AC0C5FB003FC32B /* UIColor+ColorCategory.h */,
 				279457BA1AC0C5FB003FC32B /* UIColor+ColorCategory.m */,
 				2794577D1AC0A892003FC32B /* Info.plist */,
@@ -331,6 +334,7 @@
 				279457881AC0A892003FC32B /* Main.storyboard in Resources */,
 				2794578D1AC0A892003FC32B /* LaunchScreen.xib in Resources */,
 				2794578A1AC0A892003FC32B /* Images.xcassets in Resources */,
+				279457D21AC1F594003FC32B /* Homer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
