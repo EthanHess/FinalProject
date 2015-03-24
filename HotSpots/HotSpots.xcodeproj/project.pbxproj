@@ -34,6 +34,7 @@
 		279457E11AC21FF3003FC32B /* OceaniaViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457E01AC21FF3003FC32B /* OceaniaViewDataSource.m */; };
 		279457E41AC22009003FC32B /* NorthAmericaViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457E31AC22009003FC32B /* NorthAmericaViewDataSource.m */; };
 		279457E71AC2201D003FC32B /* SouthAmericaViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457E61AC2201D003FC32B /* SouthAmericaViewDataSource.m */; };
+		279457ED1AC22719003FC32B /* AfricaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457EC1AC22719003FC32B /* AfricaCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,8 @@
 		279457E31AC22009003FC32B /* NorthAmericaViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NorthAmericaViewDataSource.m; sourceTree = "<group>"; };
 		279457E51AC2201D003FC32B /* SouthAmericaViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SouthAmericaViewDataSource.h; sourceTree = "<group>"; };
 		279457E61AC2201D003FC32B /* SouthAmericaViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SouthAmericaViewDataSource.m; sourceTree = "<group>"; };
+		279457EB1AC22719003FC32B /* AfricaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfricaCell.h; sourceTree = "<group>"; };
+		279457EC1AC22719003FC32B /* AfricaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfricaCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +260,8 @@
 				279457BD1AC1CE8C003FC32B /* AfricaViewController.m */,
 				279457D31AC21F73003FC32B /* AfricaViewDataSource.h */,
 				279457D41AC21F73003FC32B /* AfricaViewDataSource.m */,
+				279457EB1AC22719003FC32B /* AfricaCell.h */,
+				279457EC1AC22719003FC32B /* AfricaCell.m */,
 			);
 			name = Africa;
 			sourceTree = "<group>";
@@ -404,6 +409,7 @@
 				279457DB1AC21FC0003FC32B /* AsiaViewDataSource.m in Sources */,
 				279457B01AC0B430003FC32B /* ContinentData.m in Sources */,
 				279457CA1AC1CEF1003FC32B /* OceaniaViewController.m in Sources */,
+				279457ED1AC22719003FC32B /* AfricaCell.m in Sources */,
 				279457BE1AC1CE8C003FC32B /* AfricaViewController.m in Sources */,
 				279457A71AC0B089003FC32B /* MainTableViewCell.m in Sources */,
 			);
