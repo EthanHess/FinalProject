@@ -32,8 +32,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//    SectionHeaderView *header = [[SectionHeaderView alloc]initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 50)];
-//    [header updateWithTitle:section];
+
     return 1;
     
 }
