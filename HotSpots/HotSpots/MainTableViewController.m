@@ -53,29 +53,50 @@
     switch (indexPath.row) {
         case 0: {
             
+            AfricaViewController *africaViewController = [AfricaViewController new];
+            [self.navigationController pushViewController:africaViewController animated:YES];
+            
             
             break; }
         case 1: {
+            
+            AntarcticaViewController *antarcticaViewController = [AntarcticaViewController new];
+            [self.navigationController pushViewController:antarcticaViewController animated:YES];
            
             
             break; }
         case 2: {
             
+            AsiaViewController *asiaViewController = [AsiaViewController new];
+            [self.navigationController pushViewController:asiaViewController animated:YES];
+            
             
             break; }
         case 3: {
+            
+            EuropeViewController *europeViewController = [EuropeViewController new];
+            [self.navigationController pushViewController:europeViewController animated:YES];
             
             
             break; }
         case 4: {
             
+            OceaniaViewController *oceaniaViewController = [OceaniaViewController new];
+            [self.navigationController pushViewController:oceaniaViewController animated:YES];
+            
             
             break; }
         case 5: {
             
+            NorthAmericaViewController *northAmericaViewController = [NorthAmericaViewController new];
+            [self.navigationController pushViewController:northAmericaViewController animated:YES];
+            
             
             break; }
         case 6: {
+            
+            SouthAmericaViewController *southAmericaViewController = [SouthAmericaViewController new];
+            [self.navigationController pushViewController:southAmericaViewController animated:YES]; 
         
             break; }
             

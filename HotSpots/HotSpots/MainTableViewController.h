@@ -7,6 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AfricaViewController.h"
+#import "AntarcticaViewController.h"
+#import "AsiaViewController.h"
+#import "EuropeViewController.h"
+#import "OceaniaViewController.h"
+#import "NorthAmericaViewController.h"
+#import "SouthAmericaViewController.h"
 
 @interface MainTableViewController : UIViewController <UITableViewDelegate> 
 
