@@ -10,4 +10,8 @@
 
 @interface AsiaCell : UICollectionViewCell
 
+@property (nonatomic,strong) UIImageView *imageView;
+@property (nonatomic,strong) UILabel *footerLabel;
+@property (nonatomic,strong) NSString *title;
+
 @end

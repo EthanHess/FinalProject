@@ -7,8 +7,13 @@
 //
 
 #import "AntarcticaViewController.h"
+#import "AntarcticaViewDataSource.h"
+#import "UIColor+ColorCategory.h"
 
-@interface AntarcticaViewController ()
+@interface AntarcticaViewController () <UICollectionViewDelegate>
+
+@property (nonatomic, strong) AntarcticaViewDataSource *dataSource;
+@property (nonatomic, strong) UICollectionView *collectionView;
 
 @end
 
@@ -16,13 +21,42 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = @"Antarctica";
+    
+    UICollectionViewFlowLayout *flowLayout = [UICollectionViewFlowLayout new];
+    
+    self.collectionView = [[UICollectionView alloc]initWithFrame:self.view.frame collectionViewLayout:flowLayout];
+    self.collectionView.backgroundColor = [UIColor chalkWhite];
+    
+    self.dataSource = [AntarcticaViewDataSource new];
+    self.collectionView.dataSource = self.dataSource;
+    self.collectionView.delegate = self;
+    [self.dataSource registerCollectionView:self.collectionView];
+    [self.view addSubview:self.collectionView];
+    
+    
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    return CGSizeMake((self.view.frame.size.width / 2) - 8,180);
+}
+
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    
 }
 
 
+
 @end
+

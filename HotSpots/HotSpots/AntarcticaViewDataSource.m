@@ -7,7 +7,77 @@
 //
 
 #import "AntarcticaViewDataSource.h"
+#import "UIColor+ColorCategory.h"
+#import "AntarcticaCell.h"
+
+static NSString *const cellID = @"CellID";
 
 @implementation AntarcticaViewDataSource
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [AntarcticaCell new];
+    }
+    return self;
+}
+
+
+- (void)registerCollectionView:(UICollectionView *)collectionView {
+    
+    [collectionView registerClass:[AntarcticaCell class] forCellWithReuseIdentifier:cellID];
+    
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    
+    return [self iconImageNames].count;
+    
+}
+
+- (AntarcticaCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    AntarcticaCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellID forIndexPath:indexPath];
+    
+    NSArray *subviews = [cell.contentView subviews];
+    
+    for (UIView *view in subviews) {
+        [view removeFromSuperview];
+    }
+    
+    
+    UIImage *image = [UIImage imageNamed:[self iconImageNames][indexPath.row]];
+    
+    UIImageView *imageView = [[UIImageView alloc]initWithImage:image];
+    
+    imageView.frame = CGRectMake(55, 45, 60, 60);
+    
+    [cell.contentView addSubview:imageView];
+    cell.footerLabel.text = [self iconFooterNames][indexPath.row];
+    cell.footerLabel.textColor = [UIColor fern];
+    cell.footerLabel.font = [UIFont fontWithName:@"Chalkduster" size:20];
+    cell.backgroundColor = [UIColor clearColor];
+    
+    return cell;
+    
+}
+
+
+
+- (NSArray *)iconFooterNames {
+    
+    return @[@"Test 1", @"Test 2", @"Test 3", @"Test 4"];
+    
+}
+
+
+
+- (NSArray *)iconImageNames {
+    
+    return @[@"", @"", @"", @""];
+    
+}
+
 
 @end

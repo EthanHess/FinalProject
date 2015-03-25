@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface AntarcticaViewDataSource : NSObject
+@interface AntarcticaViewDataSource: NSObject <UICollectionViewDataSource>
+
+- (NSArray *)iconFooterNames;
+
+- (NSArray *)iconImageNames;
+
+- (void)registerCollectionView:(UICollectionView *)collectionView;
 
 @end
