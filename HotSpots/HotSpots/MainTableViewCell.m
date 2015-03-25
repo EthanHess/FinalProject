@@ -61,11 +61,6 @@
     
 }
 
-- (CGFloat)height {
-    
-    return 180;
-}
-
 
 
 
