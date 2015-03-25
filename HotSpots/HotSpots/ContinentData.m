@@ -42,37 +42,37 @@
     
     return @[
              @{
-               headerKey: @"Africa test",
+               headerKey: @"Africa",
                imageKey: @"Africa",
                descriptionKey: @"Africa",
                },
              @{
-               headerKey: @"Antarctica test",
+               headerKey: @"Antarctica",
                imageKey: @"Antarctica",
                descriptionKey: @"Antarctica",
                },
              @{
-               headerKey: @"Asia test",
+               headerKey: @"Asia",
                imageKey: @"Asia",
                descriptionKey: @"Asia",
                },
              @{
-               headerKey: @"Europe test",
+               headerKey: @"Europe",
                imageKey: @"Europe",
                descriptionKey: @"Europe",
                },
              @{
-               headerKey: @"Oceania test",
+               headerKey: @"Oceania",
                imageKey: @"Oceania",
                descriptionKey: @"Oceania",
                },
              @{
-               headerKey: @"North America test",
-               imageKey: @"NorthAmerica",
+               headerKey: @"North America",
+               imageKey: @"NorthAmerica-1",
                descriptionKey: @"North America",
                },
              @{
-               headerKey: @"South America test",
+               headerKey: @"South America",
                imageKey: @"SouthAmerica",
                descriptionKey: @"South America",
                

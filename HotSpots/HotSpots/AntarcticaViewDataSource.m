@@ -55,7 +55,7 @@ static NSString *const cellID = @"CellID";
     
     [cell.contentView addSubview:imageView];
     cell.footerLabel.text = [self iconFooterNames][indexPath.row];
-    cell.footerLabel.textColor = [UIColor fern];
+    cell.footerLabel.textColor = [UIColor chalkWhite];
     cell.footerLabel.font = [UIFont fontWithName:@"Chalkduster" size:20];
     cell.backgroundColor = [UIColor clearColor];
     
