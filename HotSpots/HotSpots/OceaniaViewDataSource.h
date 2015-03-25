@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface OceaniaViewDataSource : NSObject
+@interface OceaniaViewDataSource: NSObject <UICollectionViewDataSource>
+
+- (NSArray *)iconFooterNames;
+
+- (NSArray *)iconImageNames;
+
+- (void)registerCollectionView:(UICollectionView *)collectionView;
 
 @end

@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface EuropeViewDataSource : NSObject
+@interface EuropeViewDataSource: NSObject <UICollectionViewDataSource>
+
+- (NSArray *)iconFooterNames;
+
+- (NSArray *)iconImageNames;
+
+- (void)registerCollectionView:(UICollectionView *)collectionView;
 
 @end

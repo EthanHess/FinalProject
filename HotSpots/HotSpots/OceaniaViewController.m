@@ -7,8 +7,13 @@
 //
 
 #import "OceaniaViewController.h"
+#import "OceaniaViewDataSource.h"
+#import "UIColor+ColorCategory.h"
 
-@interface OceaniaViewController ()
+@interface OceaniaViewController () <UICollectionViewDelegate>
+
+@property (nonatomic, strong) OceaniaViewDataSource *dataSource;
+@property (nonatomic, strong) UICollectionView *collectionView;
 
 @end
 
@@ -16,22 +21,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = @"Oceania";
+    
+    UICollectionViewFlowLayout *flowLayout = [UICollectionViewFlowLayout new];
+    
+    self.collectionView = [[UICollectionView alloc]initWithFrame:self.view.frame collectionViewLayout:flowLayout];
+    self.collectionView.backgroundColor = [UIColor randomColorHue];
+    
+    self.dataSource = [OceaniaViewDataSource new];
+    self.collectionView.dataSource = self.dataSource;
+    self.collectionView.delegate = self;
+    [self.dataSource registerCollectionView:self.collectionView];
+    [self.view addSubview:self.collectionView];
+    
+    
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    return CGSizeMake((self.view.frame.size.width / 2) - 8,180);
+}
+
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end
+
