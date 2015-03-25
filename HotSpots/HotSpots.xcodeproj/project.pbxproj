@@ -35,6 +35,12 @@
 		279457E41AC22009003FC32B /* NorthAmericaViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457E31AC22009003FC32B /* NorthAmericaViewDataSource.m */; };
 		279457E71AC2201D003FC32B /* SouthAmericaViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457E61AC2201D003FC32B /* SouthAmericaViewDataSource.m */; };
 		279457ED1AC22719003FC32B /* AfricaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279457EC1AC22719003FC32B /* AfricaCell.m */; };
+		279458251AC325C9003FC32B /* AntarcticaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279458241AC325C9003FC32B /* AntarcticaCell.m */; };
+		279458281AC325F4003FC32B /* AsiaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279458271AC325F4003FC32B /* AsiaCell.m */; };
+		2794582B1AC32608003FC32B /* EuropeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2794582A1AC32608003FC32B /* EuropeCell.m */; };
+		2794582E1AC3261F003FC32B /* OceaniaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2794582D1AC3261F003FC32B /* OceaniaCell.m */; };
+		279458311AC32636003FC32B /* NorthAmericaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279458301AC32636003FC32B /* NorthAmericaCell.m */; };
+		279458341AC32649003FC32B /* SouthAmericaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279458331AC32649003FC32B /* SouthAmericaCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +109,18 @@
 		279457E61AC2201D003FC32B /* SouthAmericaViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SouthAmericaViewDataSource.m; sourceTree = "<group>"; };
 		279457EB1AC22719003FC32B /* AfricaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfricaCell.h; sourceTree = "<group>"; };
 		279457EC1AC22719003FC32B /* AfricaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfricaCell.m; sourceTree = "<group>"; };
+		279458231AC325C9003FC32B /* AntarcticaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntarcticaCell.h; sourceTree = "<group>"; };
+		279458241AC325C9003FC32B /* AntarcticaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntarcticaCell.m; sourceTree = "<group>"; };
+		279458261AC325F4003FC32B /* AsiaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsiaCell.h; sourceTree = "<group>"; };
+		279458271AC325F4003FC32B /* AsiaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsiaCell.m; sourceTree = "<group>"; };
+		279458291AC32608003FC32B /* EuropeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuropeCell.h; sourceTree = "<group>"; };
+		2794582A1AC32608003FC32B /* EuropeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuropeCell.m; sourceTree = "<group>"; };
+		2794582C1AC3261E003FC32B /* OceaniaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OceaniaCell.h; sourceTree = "<group>"; };
+		2794582D1AC3261F003FC32B /* OceaniaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OceaniaCell.m; sourceTree = "<group>"; };
+		2794582F1AC32636003FC32B /* NorthAmericaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NorthAmericaCell.h; sourceTree = "<group>"; };
+		279458301AC32636003FC32B /* NorthAmericaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NorthAmericaCell.m; sourceTree = "<group>"; };
+		279458321AC32649003FC32B /* SouthAmericaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SouthAmericaCell.h; sourceTree = "<group>"; };
+		279458331AC32649003FC32B /* SouthAmericaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SouthAmericaCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +234,8 @@
 				279457C31AC1CECC003FC32B /* AsiaViewController.m */,
 				279457D91AC21FC0003FC32B /* AsiaViewDataSource.h */,
 				279457DA1AC21FC0003FC32B /* AsiaViewDataSource.m */,
+				279458261AC325F4003FC32B /* AsiaCell.h */,
+				279458271AC325F4003FC32B /* AsiaCell.m */,
 			);
 			name = Asia;
 			sourceTree = "<group>";
@@ -227,6 +247,8 @@
 				279457C61AC1CEDC003FC32B /* EuropeViewController.m */,
 				279457DC1AC21FD5003FC32B /* EuropeViewDataSource.h */,
 				279457DD1AC21FD5003FC32B /* EuropeViewDataSource.m */,
+				279458291AC32608003FC32B /* EuropeCell.h */,
+				2794582A1AC32608003FC32B /* EuropeCell.m */,
 			);
 			name = Europe;
 			sourceTree = "<group>";
@@ -238,6 +260,8 @@
 				279457C01AC1CEB6003FC32B /* AntarcticaViewController.m */,
 				279457D61AC21F99003FC32B /* AntarcticaViewDataSource.h */,
 				279457D71AC21F99003FC32B /* AntarcticaViewDataSource.m */,
+				279458231AC325C9003FC32B /* AntarcticaCell.h */,
+				279458241AC325C9003FC32B /* AntarcticaCell.m */,
 			);
 			name = Antarctica;
 			sourceTree = "<group>";
@@ -249,6 +273,8 @@
 				279457C91AC1CEF1003FC32B /* OceaniaViewController.m */,
 				279457DF1AC21FF3003FC32B /* OceaniaViewDataSource.h */,
 				279457E01AC21FF3003FC32B /* OceaniaViewDataSource.m */,
+				2794582C1AC3261E003FC32B /* OceaniaCell.h */,
+				2794582D1AC3261F003FC32B /* OceaniaCell.m */,
 			);
 			name = Oceania;
 			sourceTree = "<group>";
@@ -273,6 +299,8 @@
 				279457CC1AC1CF01003FC32B /* NorthAmericaViewController.m */,
 				279457E21AC22009003FC32B /* NorthAmericaViewDataSource.h */,
 				279457E31AC22009003FC32B /* NorthAmericaViewDataSource.m */,
+				2794582F1AC32636003FC32B /* NorthAmericaCell.h */,
+				279458301AC32636003FC32B /* NorthAmericaCell.m */,
 			);
 			name = NorthAmerica;
 			sourceTree = "<group>";
@@ -284,6 +312,8 @@
 				279457CF1AC1CF15003FC32B /* SouthAmericaViewController.m */,
 				279457E51AC2201D003FC32B /* SouthAmericaViewDataSource.h */,
 				279457E61AC2201D003FC32B /* SouthAmericaViewDataSource.m */,
+				279458321AC32649003FC32B /* SouthAmericaCell.h */,
+				279458331AC32649003FC32B /* SouthAmericaCell.m */,
 			);
 			name = SouthAmerica;
 			sourceTree = "<group>";
@@ -392,23 +422,29 @@
 				279457D81AC21F99003FC32B /* AntarcticaViewDataSource.m in Sources */,
 				279457C41AC1CECC003FC32B /* AsiaViewController.m in Sources */,
 				279457A41AC0ACD7003FC32B /* MainTableDataSource.m in Sources */,
+				279458251AC325C9003FC32B /* AntarcticaCell.m in Sources */,
 				279457AA1AC0B14D003FC32B /* SectionHeaderView.m in Sources */,
 				279457851AC0A892003FC32B /* MainTableViewController.m in Sources */,
 				279457E71AC2201D003FC32B /* SouthAmericaViewDataSource.m in Sources */,
+				279458341AC32649003FC32B /* SouthAmericaCell.m in Sources */,
 				279457C71AC1CEDC003FC32B /* EuropeViewController.m in Sources */,
 				279457821AC0A892003FC32B /* AppDelegate.m in Sources */,
 				279457D51AC21F73003FC32B /* AfricaViewDataSource.m in Sources */,
 				279457E11AC21FF3003FC32B /* OceaniaViewDataSource.m in Sources */,
+				2794582B1AC32608003FC32B /* EuropeCell.m in Sources */,
 				279457E41AC22009003FC32B /* NorthAmericaViewDataSource.m in Sources */,
+				279458281AC325F4003FC32B /* AsiaCell.m in Sources */,
 				279457C11AC1CEB6003FC32B /* AntarcticaViewController.m in Sources */,
 				279457BB1AC0C5FB003FC32B /* UIColor+ColorCategory.m in Sources */,
 				279457DE1AC21FD5003FC32B /* EuropeViewDataSource.m in Sources */,
 				2794577F1AC0A892003FC32B /* main.m in Sources */,
+				279458311AC32636003FC32B /* NorthAmericaCell.m in Sources */,
 				279457AD1AC0B406003FC32B /* ContintentPicture.m in Sources */,
 				279457D01AC1CF15003FC32B /* SouthAmericaViewController.m in Sources */,
 				279457DB1AC21FC0003FC32B /* AsiaViewDataSource.m in Sources */,
 				279457B01AC0B430003FC32B /* ContinentData.m in Sources */,
 				279457CA1AC1CEF1003FC32B /* OceaniaViewController.m in Sources */,
+				2794582E1AC3261F003FC32B /* OceaniaCell.m in Sources */,
 				279457ED1AC22719003FC32B /* AfricaCell.m in Sources */,
 				279457BE1AC1CE8C003FC32B /* AfricaViewController.m in Sources */,
 				279457A71AC0B089003FC32B /* MainTableViewCell.m in Sources */,
