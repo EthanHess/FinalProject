@@ -23,7 +23,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        self.backgroundColor = [UIColor colorWithRed:139.0/255.0 green:209.0/255.0 blue:223.0/255.0 alpha:1.0];
+        self.backgroundColor = [UIColor colorWithRed:89.0/255.0 green:169.0/255.0 blue:223.0/255.0 alpha:1.0];
         
         
         self.titleLabel = [UILabel new];
@@ -57,7 +57,8 @@
     
 }
 
-- (void)updateWithTitle: (NSInteger)index {
+- (void)updateWithTitle:(NSInteger)index {
+    
     self.titleLabel.text = [ContinentData headerAtIndex:index];
 }
 

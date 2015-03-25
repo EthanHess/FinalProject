@@ -65,7 +65,7 @@ static NSString *const cellID = @"CellID";
 
 - (NSArray *)iconFooterNames {
     
-    return @[@"Randomizer", @"Student List", @"Draw Name", @"Timer"];
+    return @[@"Test 1", @"Test 2", @"Test 3", @"Test 4"];
     
 }
 
@@ -73,7 +73,7 @@ static NSString *const cellID = @"CellID";
 
 - (NSArray *)iconImageNames {
     
-    return @[@"shuffle.png", @"list1.png", @"magician.png", @"sandglass.png"];
+    return @[@"", @"", @"", @""];
     
 }
 
