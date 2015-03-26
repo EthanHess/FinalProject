@@ -68,7 +68,7 @@
                },
              @{
                headerKey: @"North America",
-               imageKey: @"NorthAmerica-1",
+               imageKey: @"Rushmore",
                descriptionKey: @"North America",
                },
              @{

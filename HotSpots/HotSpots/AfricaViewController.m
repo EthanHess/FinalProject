@@ -26,6 +26,8 @@
     
     UICollectionViewFlowLayout *flowLayout = [UICollectionViewFlowLayout new];
     
+    flowLayout.sectionInset = UIEdgeInsetsMake(2, 2, 2, 2);
+    
     self.collectionView = [[UICollectionView alloc]initWithFrame:self.view.frame collectionViewLayout:flowLayout];
     self.collectionView.backgroundColor = [UIColor fern];
     
