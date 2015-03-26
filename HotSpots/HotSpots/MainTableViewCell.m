@@ -42,7 +42,7 @@
         
         NSDictionary *viewsDictionary = NSDictionaryOfVariableBindings(_picture, _descriptionLabel);
         
-        NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-75-[_descriptionLabel]-(-60)-[_picture(==175)]-25-|" options:0 metrics:nil views:viewsDictionary];
+        NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-75-[_descriptionLabel]-(-90)-[_picture(==175)]-25-|" options:0 metrics:nil views:viewsDictionary];
         
         NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-25-[_picture(==175)]-25-[_descriptionLabel]-|" options:0 metrics:nil views:viewsDictionary];
         

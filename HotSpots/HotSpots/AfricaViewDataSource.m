@@ -66,7 +66,7 @@ static NSString *const cellID = @"CellID";
 
 - (NSArray *)iconFooterNames {
     
-    return @[@"Egypt", @"Kenya", @"Madagascar", @"Zimbabwe"];
+    return @[@"Algeria", @"Egypt", @"Kenya", @"Madagascar", @"Morocco", @"Namibia", @"South Africa", @"Zimbabwe"];
     
 }
 
@@ -74,7 +74,7 @@ static NSString *const cellID = @"CellID";
 
 - (NSArray *)iconImageNames {
     
-    return @[@"Egypt", @"Kenya", @"Madagascar", @"Zimbabwe"];
+    return @[@"Algeria",@"Egypt", @"Kenya", @"Madagascar", @"Morocco", @"Namibia", @"SouthAfrica", @"Zimbabwe"];
     
 }
 
