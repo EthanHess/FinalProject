@@ -50,7 +50,6 @@ static NSString *const cellID = @"CellID";
     
     UIImageView *imageView = [[UIImageView alloc]initWithImage:image];
     
-//    imageView.frame = CGRectMake(55, 45, 60, 60);
     imageView.frame = cell.bounds;
     
     [cell.contentView addSubview:imageView];
