@@ -44,39 +44,54 @@
              @{
                headerKey: @"Africa",
                imageKey: @"Africa",
-               descriptionKey: @"Africa",
+               descriptionKey: @"Hot spots in Africa",
                },
              @{
                headerKey: @"Antarctica",
                imageKey: @"Antarctica",
-               descriptionKey: @"Antarctica",
+               descriptionKey: @"Hot (or cold) spots in Antarctica (yes, you can go here!)",
                },
              @{
                headerKey: @"Asia",
                imageKey: @"Asia",
-               descriptionKey: @"Asia",
+               descriptionKey: @"Get lost in Asia",
                },
              @{
                headerKey: @"Europe",
                imageKey: @"Europe",
-               descriptionKey: @"Europe",
+               descriptionKey: @"Experience the charm of Europe",
                },
              @{
                headerKey: @"Oceania",
                imageKey: @"Oceania",
-               descriptionKey: @"Oceania",
+               descriptionKey: @"Relax in Oceania",
                },
              @{
                headerKey: @"North America",
                imageKey: @"Rushmore",
-               descriptionKey: @"North America",
+               descriptionKey: @"Traverse North America",
                },
              @{
                headerKey: @"South America",
                imageKey: @"SouthAmerica",
-               descriptionKey: @"South America",
-               
-                 }];
+               descriptionKey: @"Explore South America",
+               },
+             @{
+               headerKey: @"Destination Picker",
+               imageKey: @"Random",
+               descriptionKey: @"Need a vacation but can't decide where to go? Don't worry! We'll choose for you.",
+               },
+             @{
+               headerKey: @"Global Weather",
+               imageKey: @"Storm",
+               descriptionKey: @"See if there's rain, shine or snow anywhere",
+               },
+             @{
+               headerKey: @"Travel tracker",
+               imageKey: @"WorldMap",
+               descriptionKey: @"Impress your friends with a map of your extensive travels",
+            
+               }];
                 
 }
 
