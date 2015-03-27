@@ -24,14 +24,14 @@
     if (self) {
         
         self.backgroundColor = [UIColor colorWithRed:89.0/255.0 green:169.0/255.0 blue:223.0/255.0 alpha:1.0];
-        
+//        self.backgroundColor = [UIColor sand];
         
         self.titleLabel = [UILabel new];
         [self.titleLabel setFrame:frame];
         self.titleLabel.translatesAutoresizingMaskIntoConstraints = NO;
         self.titleLabel.font = [UIFont systemFontOfSize:16];
         self.titleLabel.textColor = [UIColor whiteColor];
-        [self.titleLabel setBackgroundColor:[UIColor colorWithRed:89.0/255.0 green:169.0/255.0 blue:223.0/255.0 alpha:1.0]];
+        self.titleLabel.backgroundColor = [UIColor clearColor];
         [self addSubview:self.titleLabel];
         
         NSDictionary *viewsDictionary = NSDictionaryOfVariableBindings(_titleLabel);

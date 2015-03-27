@@ -28,11 +28,13 @@
     if (self) {
         
         self.backgroundColor = [UIColor colorWithRed:23.0/255.0 green:163.0/255.0 blue:191.0/255.0 alpha:1.0];
+//        self.backgroundColor = [UIColor darkOcean];
         self.translatesAutoresizingMaskIntoConstraints = NO;
         
         self.descriptionLabel = [UILabel new];
         self.descriptionLabel.translatesAutoresizingMaskIntoConstraints = NO;
         self.descriptionLabel.font = [UIFont systemFontOfSize:20];
+//        self.descriptionLabel.numberOfLines = 0;
         self.descriptionLabel.textColor = [UIColor chalkWhite];
         [self.contentView addSubview:self.descriptionLabel];
         

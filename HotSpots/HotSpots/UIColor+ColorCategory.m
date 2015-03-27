@@ -54,6 +54,14 @@
     return [UIColor colorWithRed:0.969 green:0.984 blue:0.894 alpha:1];
 }
 
++ (UIColor *)darkOcean {
+    return [UIColor colorWithPatternImage:[UIImage imageNamed:@"Ocean2"]];
+}
+
++ (UIColor *)sand {
+    return [UIColor colorWithPatternImage:[UIImage imageNamed:@"sandy"]];
+}
+
 
 
 @end

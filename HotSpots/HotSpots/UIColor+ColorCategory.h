@@ -16,5 +16,7 @@
 + (UIColor *)trBlueColor;
 + (UIColor *)fern;
 + (UIColor *)chalkWhite;
++ (UIColor *)darkOcean;
++ (UIColor *)sand; 
 
 @end

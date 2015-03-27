@@ -14,6 +14,7 @@
 #import "OceaniaViewController.h"
 #import "NorthAmericaViewController.h"
 #import "SouthAmericaViewController.h"
+#import "WeatherViewController.h"
 
 @interface MainTableViewController : UIViewController <UITableViewDelegate> 
 

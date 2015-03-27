@@ -110,6 +110,18 @@
             [self.navigationController pushViewController:southAmericaViewController animated:YES]; 
         
             break; }
+        case 7: {
+            
+            break; }
+        case 8: {
+            
+            WeatherViewController *weatherViewController = [WeatherViewController new];
+            [self.navigationController pushViewController:weatherViewController animated:YES]; 
+            
+            break; }
+        case 9: {
+            
+            break; }
             
         default:
             break;

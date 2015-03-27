@@ -41,6 +41,9 @@
 		2794582E1AC3261F003FC32B /* OceaniaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2794582D1AC3261F003FC32B /* OceaniaCell.m */; };
 		279458311AC32636003FC32B /* NorthAmericaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279458301AC32636003FC32B /* NorthAmericaCell.m */; };
 		279458341AC32649003FC32B /* SouthAmericaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279458331AC32649003FC32B /* SouthAmericaCell.m */; };
+		27CEF4E91AC5E43B00890179 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CEF4E81AC5E43B00890179 /* WeatherViewController.m */; };
+		27CEF4EC1AC5E45A00890179 /* WeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CEF4EB1AC5E45A00890179 /* WeatherController.m */; };
+		27CEF4EF1AC5E52D00890179 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CEF4EE1AC5E52D00890179 /* NetworkController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +124,12 @@
 		279458301AC32636003FC32B /* NorthAmericaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NorthAmericaCell.m; sourceTree = "<group>"; };
 		279458321AC32649003FC32B /* SouthAmericaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SouthAmericaCell.h; sourceTree = "<group>"; };
 		279458331AC32649003FC32B /* SouthAmericaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SouthAmericaCell.m; sourceTree = "<group>"; };
+		27CEF4E71AC5E43B00890179 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		27CEF4E81AC5E43B00890179 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		27CEF4EA1AC5E45A00890179 /* WeatherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherController.h; sourceTree = "<group>"; };
+		27CEF4EB1AC5E45A00890179 /* WeatherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherController.m; sourceTree = "<group>"; };
+		27CEF4ED1AC5E52D00890179 /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		27CEF4EE1AC5E52D00890179 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +179,9 @@
 				279457B51AC0B5C0003FC32B /* Oceania */,
 				279457B71AC0B600003FC32B /* NorthAmerica */,
 				279457B81AC0B60F003FC32B /* SouthAmerica */,
+				27CEF4721AC4C86500890179 /* Destination Picker */,
+				27CEF4711AC4C85600890179 /* Weather */,
+				27CEF4731AC4C87200890179 /* Maps */,
 				279457861AC0A892003FC32B /* Main.storyboard */,
 				279457891AC0A892003FC32B /* Images.xcassets */,
 				2794578B1AC0A892003FC32B /* LaunchScreen.xib */,
@@ -318,6 +330,33 @@
 			name = SouthAmerica;
 			sourceTree = "<group>";
 		};
+		27CEF4711AC4C85600890179 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				27CEF4E71AC5E43B00890179 /* WeatherViewController.h */,
+				27CEF4E81AC5E43B00890179 /* WeatherViewController.m */,
+				27CEF4EA1AC5E45A00890179 /* WeatherController.h */,
+				27CEF4EB1AC5E45A00890179 /* WeatherController.m */,
+				27CEF4ED1AC5E52D00890179 /* NetworkController.h */,
+				27CEF4EE1AC5E52D00890179 /* NetworkController.m */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		27CEF4721AC4C86500890179 /* Destination Picker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Destination Picker";
+			sourceTree = "<group>";
+		};
+		27CEF4731AC4C87200890179 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -420,6 +459,7 @@
 			files = (
 				279457CD1AC1CF01003FC32B /* NorthAmericaViewController.m in Sources */,
 				279457D81AC21F99003FC32B /* AntarcticaViewDataSource.m in Sources */,
+				27CEF4EC1AC5E45A00890179 /* WeatherController.m in Sources */,
 				279457C41AC1CECC003FC32B /* AsiaViewController.m in Sources */,
 				279457A41AC0ACD7003FC32B /* MainTableDataSource.m in Sources */,
 				279458251AC325C9003FC32B /* AntarcticaCell.m in Sources */,
@@ -435,6 +475,7 @@
 				279457E41AC22009003FC32B /* NorthAmericaViewDataSource.m in Sources */,
 				279458281AC325F4003FC32B /* AsiaCell.m in Sources */,
 				279457C11AC1CEB6003FC32B /* AntarcticaViewController.m in Sources */,
+				27CEF4E91AC5E43B00890179 /* WeatherViewController.m in Sources */,
 				279457BB1AC0C5FB003FC32B /* UIColor+ColorCategory.m in Sources */,
 				279457DE1AC21FD5003FC32B /* EuropeViewDataSource.m in Sources */,
 				2794577F1AC0A892003FC32B /* main.m in Sources */,
@@ -447,6 +488,7 @@
 				2794582E1AC3261F003FC32B /* OceaniaCell.m in Sources */,
 				279457ED1AC22719003FC32B /* AfricaCell.m in Sources */,
 				279457BE1AC1CE8C003FC32B /* AfricaViewController.m in Sources */,
+				27CEF4EF1AC5E52D00890179 /* NetworkController.m in Sources */,
 				279457A71AC0B089003FC32B /* MainTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
